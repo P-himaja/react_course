@@ -1,9 +1,9 @@
 import Chai from "./Chai"
 function App() {
-
+const userName = "Himaja"
   return (
     <>
-     <h2>Hello vite</h2>
+     <h2>Hello vite {userName}</h2>
      <Chai/>
     </>
   )
