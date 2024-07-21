@@ -14,7 +14,7 @@ function Login() {
     <label htmlFor="username">Username:</label>
       <input type="text" placeholder='username' onChange={(e)=>setUsername(e.target.value)}/>
       <label htmlFor="password">Password:</label>
-      <input type="password" placeholder='password' onChange={(e)=>setPassword(e.target.value)}/>
+      <input type="password " placeholder='password' onChange={(e)=>setPassword(e.target.value)}/>
       <button onClick={handleSubmit}>Submit</button>
 
 
